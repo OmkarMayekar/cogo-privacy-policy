@@ -1,6 +1,6 @@
 # CoGo – Privacy Policy
 
-**Effective date: August 6, 2026**
+**Effective date: August 8, 2026**
 
 Also see: [Terms of Use](./TERMS.md)
 
@@ -19,6 +19,7 @@ We collect the following categories of personal data:
 - **Reviews** — optional ratings and written reviews after a completed ride. These are publicly visible to other CoGo users.
 - **Device data** — Firebase Cloud Messaging (FCM) token used solely to deliver push notifications to your device.
 - **Diagnostics** — crash logs and stability data via Firebase Crashlytics (associated with your account ID when signed in), and anonymised app interaction data via Firebase Analytics.
+- **Advertising identifiers** — when ads are shown in the App, Google AdMob (and related Google advertising services) may use device advertising identifiers and similar signals to deliver and measure ads. You can limit ad tracking in your device settings where available.
 
 ## 3. How We Use Your Information
 
@@ -28,6 +29,7 @@ We collect the following categories of personal data:
 - Send push notifications for ride requests, booking confirmations, cancellations, departure-time changes, chat messages, rating reminders, and other in-app events.
 - Calculate and display public driver/passenger ratings after completed rides.
 - Diagnose crashes and improve the App through analytics and Crashlytics.
+- Show advertisements (via Google AdMob) to support the App, including measuring ad performance. Ads may be turned on or off over time through our remote configuration; when ads are off, we do not use them to display commercial banners.
 
 We do **not** sell your personal data to third parties.
 
@@ -36,7 +38,8 @@ We do **not** sell your personal data to third parties.
 We share data only with:
 
 - **Other CoGo users** — your name, profile photo, rating, public reviews, and ride-related details needed to book and travel together. Fellow passengers on an accepted ride can see who else is travelling.
-- **Google / Firebase** — our backend infrastructure (Authentication, Firestore, Storage, Cloud Messaging, Cloud Functions, Analytics, Crashlytics). Governed by [Firebase's Privacy Policy](https://firebase.google.com/support/privacy).
+- **Google / Firebase** — our backend infrastructure (Authentication, Firestore, Storage, Cloud Messaging, Cloud Functions, Analytics, Crashlytics, Remote Config, Hosting). Governed by [Firebase's Privacy Policy](https://firebase.google.com/support/privacy).
+- **Google AdMob** — when ads are enabled, data related to ad serving and measurement is processed under [Google's advertising / AdMob policies](https://support.google.com/admob/answer/6128543).
 - **OpenStreetMap / Nominatim / OSRM** — place-search text and coordinates are sent to these geocoding and routing services. No account password is included.
 
 ## 5. Data Retention
