@@ -46,7 +46,7 @@ We share data only with:
 
 - Your account and profile data are retained as long as your account is active.
 - Ride records and reviews are retained to support ratings, history, and safety of the marketplace.
-- Chat messages and chat images for a ride are deleted when that ride is marked completed or cancelled.
+- Chat messages and chat images for a ride stay available as **view-only for 18 hours** after the ride is marked completed, then are deleted. They are deleted immediately if the ride is cancelled.
 - Read in-app notifications older than 72 hours are automatically deleted. Optional rating prompts may remain until you act on them or they are cleaned up by our systems.
 - Crashlytics and Analytics data are retained according to Google Firebase product policies.
 
